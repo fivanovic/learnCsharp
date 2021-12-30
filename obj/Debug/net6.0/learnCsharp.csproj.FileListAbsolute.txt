@@ -1,0 +1,15 @@
+C:\Users\filiivan\learnCsharp\bin\Debug\net6.0\learnCsharp.exe
+C:\Users\filiivan\learnCsharp\bin\Debug\net6.0\learnCsharp.deps.json
+C:\Users\filiivan\learnCsharp\bin\Debug\net6.0\learnCsharp.runtimeconfig.json
+C:\Users\filiivan\learnCsharp\bin\Debug\net6.0\learnCsharp.dll
+C:\Users\filiivan\learnCsharp\bin\Debug\net6.0\ref\learnCsharp.dll
+C:\Users\filiivan\learnCsharp\bin\Debug\net6.0\learnCsharp.pdb
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\learnCsharp.csproj.AssemblyReference.cache
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\learnCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\learnCsharp.AssemblyInfoInputs.cache
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\learnCsharp.AssemblyInfo.cs
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\learnCsharp.csproj.CoreCompileInputs.cache
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\learnCsharp.dll
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\ref\learnCsharp.dll
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\learnCsharp.pdb
+C:\Users\filiivan\learnCsharp\obj\Debug\net6.0\learnCsharp.genruntimeconfig.cache
