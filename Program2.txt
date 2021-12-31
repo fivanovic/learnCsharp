@@ -1,0 +1,56 @@
+namespace learnCsharp
+{
+    class Program2
+    {
+        static void notMain2(string[] args)
+        {
+            Console.WriteLine("Enter Username:");
+
+            string userName = Console.ReadLine();
+
+            Console.WriteLine("Username is: " + userName);
+
+            //ReadLine reads strings, numbers need to be typecast
+            Console.WriteLine("Enter your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);
+
+            int x = 20, y = 5;
+            int big = Math.Max(x,y);
+            Console.WriteLine(big);
+            // min, sqrt, abs and round also exist 
+
+            string txt = "abcdefgys";
+            Console.WriteLine("The length of the txt string is" + txt.Length);
+            // txt.ToUpper would shove it into upper case. ToLower would shove it to lower case
+
+            string firstName = "Filip ";
+            string lastName = "Ivanovic";
+
+            string name = firstName + lastName;
+            Console.WriteLine(name);
+            // string.Concat() can also be used for this purpose 
+
+            //you can also interpolate 
+            name = $"my full name is: {firstName} {lastName}";
+            // the $ has to be used when implementing string interpolation 
+            // string characters can be accessed likearray indices
+
+            // strings can be searched for characters and indexes can be returnned with IndexOf()
+
+            //boolean operators can be used directly
+            Console.WriteLine(x<y);
+
+
+
+
+
+            
+
+
+
+
+
+        }
+    }
+}

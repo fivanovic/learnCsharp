@@ -1,0 +1,140 @@
+using System;
+using System.Linq;
+
+namespace learnCsharp
+
+{
+    class Program3
+    {
+        static void notMain3(string[] args)
+        {
+            int x = 20, y = 18;
+
+            if (x > y)
+            {
+                Console.WriteLine("x is greater than y");
+            
+            }
+            else if(x == y)
+            { 
+                Console.WriteLine("x is equal to y");
+            }
+            else 
+            {
+                Console.WriteLine("x is not greater than y");
+            }
+
+            // if a statement will contain only if and else, it can be simplified 
+            int time = 20;
+            string result = (time < 18) ? "Good Day" : "Good Evening";
+            Console.WriteLine(result);
+
+            //switch selects one of many code blocks to be executed 
+            int day = 4; 
+            switch(day)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
+                case 3:
+                    Console.WriteLine("Wednesday");
+                    break;
+                case 4:
+                    Console.WriteLine("Thursday");
+                    break;
+                case 5:
+                    Console.WriteLine("Friday");
+                    break;
+                case 6:
+                    Console.WriteLine("Saturday");
+                    break;
+                case 7:
+                    Console.WriteLine("Sunday");
+                    break;
+
+                // a default case catches when no other cases are caught
+                default:
+                    Console.WriteLine("There are only 7 days dumbass");
+                    break;
+            }
+
+            //while loop innit 
+
+            int i = 0;
+            while (i < 5)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+            // do while is the same, but the thing will be executed at least once, even if condition is false 
+            i = 0;
+            do 
+            {
+                Console.WriteLine(i);
+                i++;
+
+            }
+            while(i<5);
+            
+            /* for loop: statement 1 is done once before code block, statement 2 defines how long code block is done
+            statement 3 happens post code block every time*/
+
+            for(i=0;i<5;i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            //foreach allows the looping of elements in an array 
+            string[] cars = {"Volvo", "Mazda", "Ford"};
+            foreach (string c in cars)
+            {
+                Console.WriteLine(i);
+            }
+
+            //break can be used to break out of a loop 
+            // continue can be used to skip one loop 
+
+            for(i=0;i<5;i++)
+            {
+                if (i == 3)
+                {
+                    continue;
+                    //this will skip writing 3
+                }
+                Console.WriteLine(i);
+            }
+
+            //arrays are defined with square brackets and then filled with curly brackets separated by commas 
+            string[] tyranids = {"Broodlord", "Mawloc", "Hive Tyrant"};
+            //these can be intexed with tyranids[2] etc 
+            
+            //tyranids.Length woud give amount of elements in the array 
+            //sort() sorts arrays alphabetically or in ascending  order if they are numbers
+
+            Array.Sort(tyranids);
+            foreach(string c in tyranids)
+            {
+                Console.WriteLine(c);
+            }
+
+            //including system.Linq allows you to use .Max, .Min, .Sum for arrays 
+
+            //new can be used to create arrays 
+
+            string[] tau = new string[5];
+            
+            //new MUST be used if you declare an array but initialise it later
+
+            string[] sororitas;
+
+            sororitas = new string[] {"Flamer", "Melta", "Boltgun"};
+
+            //stopped at methods
+
+        }
+    }
+}
